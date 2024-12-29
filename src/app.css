@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+.sidebar-column {
+  font-family: "Inter", sans-serif;
+  color: #888ea2;
+  font-size: 18;
+  align-items: center;
+}
+
+.container {
+  width: "95%";
+  display: flex;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 22px;
+  color: #182651;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
